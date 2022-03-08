@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>welcome to Nepal Enginnering College</h3>
+        <p>Enter your details and submit your form to confirm your partcipation to the Us Trip</p>
+
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="text" name="age" id="age" placeholder="Enter Your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter Your gender">
+            <input type="email" name="email" id="email" placeholder="Enter Your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter Your phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="enter any other information"></textarea>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+   <script src="index.js"></script>
+   <!-- INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('1', 'sky', '27', 'male', 'sky@email.com', '1234567890', 'this is gud value', current_timestamp()); -->
+</body>
+</html>
